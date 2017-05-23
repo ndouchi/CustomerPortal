@@ -1,0 +1,136 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIC.API.ICOP.CustomerPortal", "TIC.API.ICOP\TIC.API.ICOP.CustomerPortal.csproj", "{A85AC334-91AB-4128-9158-E487A9EF8B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIC.API.ICOP.CustomerPortal.Tests", "TIC.API.ICOP.Tests\TIC.API.ICOP.CustomerPortal.Tests.csproj", "{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIC.API.ICOP.Utility.Logger", "TIC.API.ICOP.Utility.Logger\TIC.API.ICOP.Utility.Logger.csproj", "{68490370-5371-490F-A86F-FE4A3CBF0B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IC.IO.IoUtility", "IC.WebDeploy\IC.IoUtility\IC.IO.IoUtility.csproj", "{44BF31A8-AF9A-4AF9-9673-A406F1C85215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IC.WebDeploy.UI.ConsoleApp", "IC.WebDeploy\IC.WebDeploy.UI\ConsoleApp\IC.WebDeploy.UI.ConsoleApp.csproj", "{863F38CD-40C6-4E95-B861-A99416F64E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IC.WebDeploy.UI.WinFormsApp", "IC.WebDeploy\IC.WebDeploy.UI\WinFormsApp\IC.WebDeploy.UI.WinFormsApp.csproj", "{876DC080-D73D-484F-B7D3-F7BEE559C98F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IC.WebDeploy", "IC.WebDeploy", "{7591BC42-4DDE-4849-ADFB-26A716A1C2DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		1 - Dev|Any CPU = 1 - Dev|Any CPU
+		2 - Test|Any CPU = 2 - Test|Any CPU
+		3 - Prod|Any CPU = 3 - Prod|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A85AC334-91AB-4128-9158-E487A9EF8B62}.1 - Dev|Any CPU.ActiveCfg = 1 - Dev|Any CPU
+		{A85AC334-91AB-4128-9158-E487A9EF8B62}.1 - Dev|Any CPU.Build.0 = 1 - Dev|Any CPU
+		{A85AC334-91AB-4128-9158-E487A9EF8B62}.2 - Test|Any CPU.ActiveCfg = 2 - Test|Any CPU
+		{A85AC334-91AB-4128-9158-E487A9EF8B62}.2 - Test|Any CPU.Build.0 = 2 - Test|Any CPU
+		{A85AC334-91AB-4128-9158-E487A9EF8B62}.3 - Prod|Any CPU.ActiveCfg = 3 - Production|Any CPU
+		{A85AC334-91AB-4128-9158-E487A9EF8B62}.3 - Prod|Any CPU.Build.0 = 3 - Production|Any CPU
+		{A85AC334-91AB-4128-9158-E487A9EF8B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85AC334-91AB-4128-9158-E487A9EF8B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85AC334-91AB-4128-9158-E487A9EF8B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85AC334-91AB-4128-9158-E487A9EF8B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}.1 - Dev|Any CPU.ActiveCfg = 1 - Dev|Any CPU
+		{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}.1 - Dev|Any CPU.Build.0 = 1 - Dev|Any CPU
+		{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}.2 - Test|Any CPU.ActiveCfg = 2 - Test|Any CPU
+		{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}.2 - Test|Any CPU.Build.0 = 2 - Test|Any CPU
+		{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}.3 - Prod|Any CPU.ActiveCfg = 3 - Production|Any CPU
+		{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}.3 - Prod|Any CPU.Build.0 = 3 - Production|Any CPU
+		{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7CDA39-1793-4B87-A87A-9D655C8C11EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68490370-5371-490F-A86F-FE4A3CBF0B8B}.1 - Dev|Any CPU.ActiveCfg = Release|Any CPU
+		{68490370-5371-490F-A86F-FE4A3CBF0B8B}.1 - Dev|Any CPU.Build.0 = Release|Any CPU
+		{68490370-5371-490F-A86F-FE4A3CBF0B8B}.2 - Test|Any CPU.ActiveCfg = Release|Any CPU
+		{68490370-5371-490F-A86F-FE4A3CBF0B8B}.2 - Test|Any CPU.Build.0 = Release|Any CPU
+		{68490370-5371-490F-A86F-FE4A3CBF0B8B}.3 - Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{68490370-5371-490F-A86F-FE4A3CBF0B8B}.3 - Prod|Any CPU.Build.0 = Release|Any CPU
+		{68490370-5371-490F-A86F-FE4A3CBF0B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68490370-5371-490F-A86F-FE4A3CBF0B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68490370-5371-490F-A86F-FE4A3CBF0B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68490370-5371-490F-A86F-FE4A3CBF0B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215}.1 - Dev|Any CPU.ActiveCfg = Release|Any CPU
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215}.1 - Dev|Any CPU.Build.0 = Release|Any CPU
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215}.2 - Test|Any CPU.ActiveCfg = Release|Any CPU
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215}.2 - Test|Any CPU.Build.0 = Release|Any CPU
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215}.3 - Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215}.3 - Prod|Any CPU.Build.0 = Release|Any CPU
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863F38CD-40C6-4E95-B861-A99416F64E0F}.1 - Dev|Any CPU.ActiveCfg = Release|Any CPU
+		{863F38CD-40C6-4E95-B861-A99416F64E0F}.1 - Dev|Any CPU.Build.0 = Release|Any CPU
+		{863F38CD-40C6-4E95-B861-A99416F64E0F}.2 - Test|Any CPU.ActiveCfg = Release|Any CPU
+		{863F38CD-40C6-4E95-B861-A99416F64E0F}.2 - Test|Any CPU.Build.0 = Release|Any CPU
+		{863F38CD-40C6-4E95-B861-A99416F64E0F}.3 - Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{863F38CD-40C6-4E95-B861-A99416F64E0F}.3 - Prod|Any CPU.Build.0 = Release|Any CPU
+		{863F38CD-40C6-4E95-B861-A99416F64E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863F38CD-40C6-4E95-B861-A99416F64E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863F38CD-40C6-4E95-B861-A99416F64E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863F38CD-40C6-4E95-B861-A99416F64E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F}.1 - Dev|Any CPU.ActiveCfg = Release|Any CPU
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F}.1 - Dev|Any CPU.Build.0 = Release|Any CPU
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F}.2 - Test|Any CPU.ActiveCfg = Release|Any CPU
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F}.2 - Test|Any CPU.Build.0 = Release|Any CPU
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F}.3 - Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F}.3 - Prod|Any CPU.Build.0 = Release|Any CPU
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44BF31A8-AF9A-4AF9-9673-A406F1C85215} = {7591BC42-4DDE-4849-ADFB-26A716A1C2DB}
+		{863F38CD-40C6-4E95-B861-A99416F64E0F} = {7591BC42-4DDE-4849-ADFB-26A716A1C2DB}
+		{876DC080-D73D-484F-B7D3-F7BEE559C98F} = {7591BC42-4DDE-4849-ADFB-26A716A1C2DB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/ico
+		SccProjectUniqueName0 = TIC.API.ICOP.Utility.Logger\\TIC.API.ICOP.Utility.Logger.csproj
+		SccProjectName0 = TIC.API.ICOP.Utility.Logger
+		SccAuxPath0 = http://tfs:8080/tfs/ico
+		SccLocalPath0 = TIC.API.ICOP.Utility.Logger
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = TIC.API.ICOP\\TIC.API.ICOP.CustomerPortal.csproj
+		SccProjectName1 = TIC.API.ICOP
+		SccAuxPath1 = http://tfs:8080/tfs/ico
+		SccLocalPath1 = TIC.API.ICOP
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = TIC.API.ICOP.Tests\\TIC.API.ICOP.CustomerPortal.Tests.csproj
+		SccProjectName2 = TIC.API.ICOP.Tests
+		SccAuxPath2 = http://tfs:8080/tfs/ico
+		SccLocalPath2 = TIC.API.ICOP.Tests
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = IC.WebDeploy\\IC.IoUtility\\IC.IO.IoUtility.csproj
+		SccProjectTopLevelParentUniqueName3 = TIC.API.ICOP.sln
+		SccProjectName3 = IC.WebDeploy/IC.IoUtility
+		SccAuxPath3 = http://tfs:8080/tfs/ico
+		SccLocalPath3 = IC.WebDeploy\\IC.IoUtility
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = IC.WebDeploy\\IC.WebDeploy.UI\\ConsoleApp\\IC.WebDeploy.UI.ConsoleApp.csproj
+		SccProjectTopLevelParentUniqueName4 = TIC.API.ICOP.sln
+		SccProjectName4 = IC.WebDeploy/IC.WebDeploy.UI/ConsoleApp
+		SccAuxPath4 = http://tfs:8080/tfs/ico
+		SccLocalPath4 = IC.WebDeploy\\IC.WebDeploy.UI\\ConsoleApp
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = IC.WebDeploy\\IC.WebDeploy.UI\\WinFormsApp\\IC.WebDeploy.UI.WinFormsApp.csproj
+		SccProjectTopLevelParentUniqueName5 = TIC.API.ICOP.sln
+		SccProjectName5 = IC.WebDeploy/IC.WebDeploy.UI/WinFormsApp
+		SccAuxPath5 = http://tfs:8080/tfs/ico
+		SccLocalPath5 = IC.WebDeploy\\IC.WebDeploy.UI\\WinFormsApp
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
